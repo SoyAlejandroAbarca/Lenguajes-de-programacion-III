@@ -45,5 +45,29 @@ namespace Empresa_Kamil
         {
             Conectarbd.Close();
         }
+
+        private void Bempleados_Click(object sender, EventArgs e)
+        {
+            FormEmpleados formEmpleados = new FormEmpleados();
+            formEmpleados.Show();
+        }
+
+        private void Bcentros_Click(object sender, EventArgs e)
+        {
+            FormCentros formCentros = new FormCentros();
+            formCentros.Show();
+        }
+
+        private void Bdirectivos_Click(object sender, EventArgs e)
+        {
+            FormDirectivos formDirectivos = new FormDirectivos();
+            formDirectivos.Show();
+        }
+
+        private void Bpuestos_Click(object sender, EventArgs e)
+        {
+            FormPuestos formPuestos = new FormPuestos();
+            formPuestos.Show();
+        }
     }
 }
